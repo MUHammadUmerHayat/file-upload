@@ -1,0 +1,30 @@
+{
+  "name": "fileUpload",
+  "version": "0.0.0",
+  "main": "fileUpload.js",
+  "description": "upload files",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "upload",
+    "files"
+  ],
+  "authors": [
+    "Olatunde Garuba"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.14",
+    "ng-file-upload": "1.3.1"
+  },
+}

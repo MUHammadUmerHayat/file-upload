@@ -1,0 +1,7 @@
+<div ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="drag-div-hover" ng-show="dropSupported" class="col-sm-6 col-md-4 drag-div">
+    Drop or drag file here or click
+    <br><br>
+    <span class="alert alert-warning" role="alert" ng-show="errorMessage">{{errorMessage}}</span><br>
+    <input type="file" ng-file-select="onFileSelect($files)" id="dragDropClick" multiple="true" />
+</div>
+<div ng-file-drop-available="dropSupported=true" ng-show="!dropSupported">HTML5 Drop File is not supported!</div>

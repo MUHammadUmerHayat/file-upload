@@ -1,0 +1,11 @@
+{
+  "name": "file-upload",
+  "version": "0.0.0",
+  "description": "upload data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-ogaruba/file-upload.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/andela-ogaruba/file-upload"
+}
